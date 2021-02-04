@@ -1,3 +1,79 @@
-.Menu {
-    background-color: lightblue;
+html{
+  color: lightblue;
+  background-color: black;
+}
+
+.Background{
+  background-color: black;
+}
+
+table, th, td {
+  border: 1px solid lightblue;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+}
+
+#Andrew:hover {
+  transform: scale(1.15);
+}
+
+#Alexis:hover {
+  transform: scale(1.25);
+}
+
+#Ashley:hover {
+  transform: scale(1.1);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p, .ContactContainer, .Menu {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+header {
+  text-align:center;
+  font-size: 25px;
+}
+
+a {
+  color: blue;
+  padding: 6px;
+  margin: 0 auto;
+}
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #173653;
 }
